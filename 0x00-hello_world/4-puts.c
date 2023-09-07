@@ -1,11 +1,14 @@
 #include <stdio.h>
 /**
-*puts funtcion for print
-*return: 1 if it good and 0 otherwise
-*main - main for excutrion
+*main - Entry point
+*
+* Return: Always 0 (success)
 */
 int main(void)
 {
+	/**
+	* main do excutring
+	*/
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
 }
