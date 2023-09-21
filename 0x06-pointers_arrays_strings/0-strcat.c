@@ -2,9 +2,9 @@
 #include "main.h"
 /**
 * *_strcat - This function appends the src string to the dest string.
-* *dest: deppend the sting the string
-* *src the return xDsss s s
-*Return: the pointer location of the string
+* @dest : deppend the sting the string
+* @src : the return xDsss s s
+* Return: the pointer location of the string
 */
 char *_strcat(char *dest, char *src)
 {
