@@ -1,10 +1,10 @@
 #include <string.h>
 #include "main.h"
 /**
-* *_strcat - This function appends the src string to the dest string.
+* *_strncat - This function appends the src string to the dest string.
 * @dest: deppend the sting the string
-* @src the return xDsss
-* n is the number
+* @src: it gonna appended from no where
+* @n: is the number of how manyy string you want to appended
 *Return: the pointer location of the string
 */
 char *_strncat(char *dest, char *src, int n)
