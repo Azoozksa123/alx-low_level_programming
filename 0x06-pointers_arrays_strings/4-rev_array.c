@@ -3,8 +3,7 @@
 /**
  * reverse_array - from name xD
  * @a: input array
- * n: size of the array
- *
+ * @n: size of the array
  * Return: s1[i] - s2[i]
  */
 void reverse_array(int *a, int n)
@@ -19,5 +18,4 @@ void reverse_array(int *a, int n)
 		a[i] = a[n];
 		a[n] = t;
 	}
-	
 }
