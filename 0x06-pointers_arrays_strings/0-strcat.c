@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 /**
 * *_strcat - This function appends the src string to the dest string.
