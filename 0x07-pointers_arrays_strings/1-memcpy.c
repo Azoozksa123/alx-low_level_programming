@@ -1,20 +1,22 @@
 #include "main.h"
 /**
-* *_memcpy - This function copy the value of the address src.
-* @*dest : the address of where we gonna change
-* @src : the place that will copy 
-* Return: the pointer location of the dest after changed
-*/
+ * _memcpy - a function that copies memory area
+ * @dest: memory where is stored
+ * @src: memory where is copied
+ * *@n: number of bytes
+ *
+ * Return: copied memory with n byted changed
+ */
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	for (size_t i = 0; i < n; i++)
+	int r = 0;
+	int i = n;
+
+	for (; r < i; r++)
 	{
-		if (i < n)
-		{
-			*dest = *src;
-			dest++;
-			src++;
-		}	
+		dest[r] = src[r];
+		n--;
 	}
 	return (dest);
 }
